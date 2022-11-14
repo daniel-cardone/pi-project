@@ -1,0 +1,19 @@
+{
+  "name": "term-1-art-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pug src -o dist; tsc; copy src/*.css dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pug": "^3.0.2",
+    "sass": "^1.55.0",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@types/p5": "^1.4.3"
+  }
+}

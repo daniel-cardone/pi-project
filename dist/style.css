@@ -1,0 +1,41 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #111111;
+  color: #ffffff;
+  height: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  text-align: center;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  border: 2px solid #555577;
+  border-radius: 1rem;
+  color: #ffffff;
+  background: #222266;
+  cursor: pointer;
+  height: 40px;
+}
